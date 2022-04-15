@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Akshar";
+    src: url(./Fonts/Akshar-Regular.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
