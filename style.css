@@ -10,6 +10,7 @@
     list-style-type: none;
     font-family: Akshar;
     --bgcolorhead-foot: #130f40;
+    --accentpurple:#4834d4;
 }
 
 body{
@@ -50,14 +51,14 @@ header .menu{
     width: 150px;
 }
 
-.contentbox{
+header .contentbox{
     display: flex;
     gap: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.contentbox>*{
+header .contentbox>*{
     flex: 1 1 0;
 }
 
@@ -82,9 +83,51 @@ header .menu{
 
 .button{
     display: inline-block;
-    background-color:#4834d4;
+    background-color:var(--accentpurple);
     padding: 5px 30px;
     border-radius: 5px;
 }
 
 /* ------------------------------Header---------------------------------------------------------- */
+
+/* ------------------------------Main infobox-----------------------------------------------------*/
+
+.infobox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 20% 100px;
+}
+
+.infobox h2{
+    color: var(--bgcolorhead-foot);
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.infobox p{
+    color:var(--bgcolorhead-foot);
+}
+
+.infobox .contentbox{
+    display: flex;
+    gap: 20px;
+}
+
+.contentbox .card{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.contentbox .sqimg{
+    border: 3px solid var(--accentpurple);
+    border-radius: 10px;
+    width: 100px;
+}
+/* ------------------------------Main infobox-----------------------------------------------------*/
