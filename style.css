@@ -222,3 +222,19 @@ blockquote::after{
 }
 
 /* ------------------------------Main action-----------------------------------------------------*/
+
+/* ------------------------------Footer-----------------------------------------------------*/
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: var(--bgcolorhead-foot);
+}
+
+footer *{
+    color: white;
+}
+
+/* ------------------------------Footer-----------------------------------------------------*/
