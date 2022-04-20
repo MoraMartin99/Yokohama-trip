@@ -11,6 +11,8 @@
     font-family: Akshar;
     --bgcolorhead-foot: #130f40;
     --accentpurple:#4834d4;
+    --greenquote: #badc58;
+    --alphaemerald: #a5ffd2;
 }
 
 body{
@@ -131,3 +133,42 @@ header .contentbox>*{
     width: 100px;
 }
 /* ------------------------------Main infobox-----------------------------------------------------*/
+
+/* ------------------------------Main quotebox-----------------------------------------------------*/
+
+.quotebox{
+    background-color: var(--alphaemerald);
+    padding: 100px 25%;
+}
+
+blockquote{
+    font-size: 36px;
+    font-style:italic;
+    font-weight:lighter;
+    color: var(--bgcolorhead-foot);
+    margin-bottom: 10px;
+    quotes: "“" "”";
+}
+
+blockquote::before{
+    content: open-quote;
+    font-size: 50px;
+}
+
+blockquote::after{
+    content: close-quote;
+    font-size: 50px;
+}
+
+.quotebox p{
+    color: var(--bgcolorhead-foot);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.quotebox p::before{
+    content: "- ";
+}
+
+/* ------------------------------Main quotebox-----------------------------------------------------*/
