@@ -83,11 +83,12 @@ header .contentbox>*{
     font-size: 18px;
 }
 
-.button{
+header .button{
     display: inline-block;
     background-color:var(--accentpurple);
     padding: 5px 30px;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 /* ------------------------------Header---------------------------------------------------------- */
@@ -172,3 +173,52 @@ blockquote::after{
 }
 
 /* ------------------------------Main quotebox-----------------------------------------------------*/
+
+/* ------------------------------Main action-----------------------------------------------------*/
+
+.action{
+    padding: 10% 15%;
+}
+
+.actionbox{
+    display: flex;
+    background-color: var(--accentpurple);
+    padding: 40px 100px;
+    border-radius: 5px;
+}
+
+.textbox{
+    flex: 7 7 0;
+}
+
+.buttonbox{
+    flex: 3 3 0;
+}
+
+.actionbox *{
+    color: white;
+}
+
+.actionbox p, .actionbox a{
+    font-size: 18px;
+}
+
+.actionbox h3{
+    font-size: 24px;
+}
+
+.actionbox .button {
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.buttonbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------Main action-----------------------------------------------------*/
