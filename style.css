@@ -58,6 +58,7 @@ header .contentbox{
     gap: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 header .contentbox>*{
@@ -74,7 +75,7 @@ header .contentbox>*{
 
 .left h1{
     color: white;
-    font-size: 48px;
+    font-size: 42px;
     font-weight:bolder;
 }
 
