@@ -153,6 +153,7 @@ blockquote{
     font-weight:lighter;
     color: var(--bgcolorhead-foot);
     margin-bottom: 10px;
+    text-align: justify;
     quotes: "“" "”";
 }
 
