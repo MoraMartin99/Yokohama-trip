@@ -129,10 +129,14 @@ header .button{
     text-align: center;
 }
 
+.card p{
+    font-size: 20px;
+}
+
 .contentbox .sqimg{
     border: 3px solid var(--accentpurple);
     border-radius: 10px;
-    width: 100px;
+    width: 200px;
 }
 /* ------------------------------Main infobox-----------------------------------------------------*/
 
